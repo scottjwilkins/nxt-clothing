@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import  './directory-menu.styles.scss'
 import MenuItem from '../menu-item/menu-item.component'
 
+
 export default class DirectoryMenu extends Component {
-    constructor () {
-        super ();
+    constructor() {
+        super();
         this.state = {
             sections: [
                 {
